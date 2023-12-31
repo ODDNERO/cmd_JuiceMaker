@@ -1,9 +1,3 @@
-//
-//  PrintText.swift
-//  Study_JuiceMaker
-//
-//  Created by NERO on 12/31/23.
-//
 
 import Foundation
 

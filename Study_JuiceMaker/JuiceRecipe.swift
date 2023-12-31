@@ -3,7 +3,7 @@ import Foundation
 
 struct JuiceRecipe {
     
-    //MARK: - 주스 제조/처리를 위한 과일 재고 변수 생성
+    //MARK: - 주스 제조를 위한 과일 재고 변수 생성
     var fruitStock = FruitStore()
     
     func makeJuice(fruit: Fruit, necessaryStock: Int) -> Bool {
@@ -43,7 +43,6 @@ struct JuiceRecipe {
             return
         }
     }
-    
     
     //MARK: - 주문 처리 진행
     func makeJuiceResult(choice: PrintText, fruit: Fruit, necessaryStock: Int) {

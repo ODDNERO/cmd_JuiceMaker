@@ -9,7 +9,6 @@ class FruitStore {
     var mangoStock: Int = 20
     var kiwiStock: Int = 20
     
-    
     //MARK: - 주스 제조 가능한지 체크
     func makeJuiceRecipe(fruit: Fruit, necessaryStock: Int) -> Bool {
         switch fruit {
@@ -45,7 +44,6 @@ class FruitStore {
             return false
         }
     }
-    
     
     //MARK: - 과일 재고 수정
     func changeStockInput() -> Int {
